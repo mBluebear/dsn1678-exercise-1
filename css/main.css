@@ -38,7 +38,7 @@ img {
   display: block;
   width: 100%;
 }
-h1{
+.title {
     margin-top: .8rem;
     padding: 20px;
     margin-bottom: .8rem;
@@ -51,7 +51,7 @@ figure {
     position: relative;
 }
 
-figure figcaption {
+.fig1 figcaption {
     position: absolute;
     bottom: 0px;
     left: 0px;
@@ -66,6 +66,11 @@ figure figcaption {
 
 figure img {
     width: 100%;
+}
+
+.tb {
+    width:100%;
+    border-collapse: collapse;
 }
 
 table th {
